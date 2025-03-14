@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Literacy and IT Skills Program</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <h1>Digital Literacy Academy</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="program.html">Programs</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="internships.html">Internships</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+        <!-- Programs Section -->
+<section id="programs" class="section">
+    <h2>Our Programs</h2>
+    <div class="programs">
+        <button class="program-btn" onclick="showProgramDetails('3-month')">
+            <h3>3-Month Program</h3>
+            <p>3 hours/day, 5 days/week</p>
+        </button>
+        <button class="program-btn" onclick="showProgramDetails('6-month')">
+            <h3>6-Month Program</h3>
+            <p>1.5 hours/day, 5 days/week</p>
+        </button>
+        <button class="program-btn" onclick="showProgramDetails('weekend')">
+            <h3>Weekend Program</h3>
+            <p>9 hours/day, Saturdays & Sundays</p>
+        </button>
+        <button class="program-btn" onclick="showProgramDetails('fast-track')">
+            <h3>1-Month Fast-Track Program</h3>
+            <p>9 hours/day, 30 days</p>
+        </button>
+    </div>
+</section>
+
+<!-- Placeholder for displaying program details -->
+<section id="program-details" class="section hidden">
+    <h1>Program Details</h1>
+    <p id="program-info"></p>
+</section>
+
+
+<!-- Program Details -->
+
+<section id="#" class="#">
+    <strong>
+    <h1>Categories</h1></strong>
+    <p>Core digital literacy modules (90 hours)
+    <br>Advantage IT and creative skill modules (110 hours)
+    <br>Practical projects and internships
+    <br>Student requirement assessment and placement assistance (100 hours)
+</p>
+</section>
+
+    <!-- Footer Section with Contact Form -->
+    <footer id="footer">
+        <div class="footer-content">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+        <p>&copy; 2024 Digital Literacy Academy | All Rights Reserved</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
