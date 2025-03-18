@@ -1,0 +1,12 @@
+Path
+
+/electrical-products-availability-check
+│── /css
+│   ├── styles.css
+│── /js
+│   ├── admin.js
+│   ├── user.js
+│   ├── location.js
+│── index.html  (User View)
+│── admin.html  (Admin Panel)
+│── products.json (Mock Database)

@@ -1,0 +1,5 @@
+[
+    { "name": "LED Bulb", "location": "New York", "availability": 10 },
+    { "name": "Voltage Stabilizer", "location": "Los Angeles", "availability": 5 },
+    { "name": "Ceiling Fan", "location": "Chicago", "availability": 8 }
+]
